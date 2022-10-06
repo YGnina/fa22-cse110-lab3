@@ -4,23 +4,22 @@ Traditionally, a meeting note includes:
 
 - [x] a title (e.g. "Pomodoro Timer First Brainstorm")
 
-- [ ] subtitle for the meeting section/the topic of the meeting (e.g. "brainstorming", "check-ins", "documentation")
+- [x] subtitle for the meeting section/the topic of the meeting (e.g. "brainstorming", "check-ins", "documentation")
+
+- [x] subtitle for the date
+
+- [x] attendance list
+
+- [x] agenda of what the meeting will cover
+
+- [x] things that were unfinished business from last meeting
+
+- [x] things that are new business that need to be talked about
+
+- [x] any miscellaneous comments / questions / concerns that anyone would like to bring up
 
 
-- [ ] subtitle for the date
-
-- [ ] attendance list
-
-- [ ] agenda of what the meeting will cover
-
-- [ ] things that were unfinished business from last meeting
-
-- [ ] things that are new business that need to be talked about
-
-- [ ] any miscellaneous comments / questions / concerns that anyone would like to bring up
-
-
-- [ ] pictures of any diagrams / architecture / things that were presented
+- [x] pictures of any diagrams / architecture / things that were presented
 
   SWE meetings often have people diagram things on a whiteboard so we want those captured as well
 
