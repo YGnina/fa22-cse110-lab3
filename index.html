@@ -3,57 +3,99 @@
   <head>
     <title>Meeting Minutes</title>
     <meta charset = "utf-8">
-    <link rel="icon" href="/screenshots/icon.jpg">
+    <link rel="icon" href="/screenshots/icon.png">
   </head>
+
+  <nav class="programming">
+    <ul>
+        <a href="#">Home</a> |
+        <a href="#">About</a> |
+        <a href="#">Help</a>
+    </ul>
+  </nav>  
+
   <body>
     <h1>Team Meeting</h1>
-
     
-
     <img
-      src = "screenshots/meeting.jpg"
-      width="500"
+    src = "screenshots/meeting.jpg"
+    width="500"
+    alt="meeting"
     >
+    
+    
+    <main>
+        <button class="favorite styled" type="button">
+            Add to read later
+        </button>
+    <section>
+        <h3>Meeting date</h3>
+        <p>10/10/2022 8:30pm</p>
+        <p><span style="color: yellowgreen;">Location:</span> <span style="background-color: yellowgreen;">CSE building</span> </p>
+    </section>
 
-    <h3>Meeting date</h3>
-      <p>10/10/2022 8:30pm</p>
 
-      <p>Location: CSE building</p>
+    <hr size = "10">
 
-    <h3>Meeting topic</h3>
-      <b>Review what we did last time and brainstorming the topic of group project</b>
-
+    <section>
+        <h3>Meeting topic</h3>
+        <b>Review what we did last time and brainstorming the topic of group project</b>
+    </section>
+    
     <h3>Attendance List</h3>
     <ul>
-      <li>Alex</li>
-      <li>Cathy</li>
-      <li>Matthew</li>
-      <li>Nina</li>
-      <li>Jane</li>
+      <li><i>Alex</i></li>
+      <li><i>Cathy</i></li>
+      <li><i>Matthew</i></li>
+      <li><i>Nina</i></li>
+      <li><i>Jane</i></li>
     </ul>
 
     <h3>Our Agenda</h3>
       <p>Our agenda overall is to meet together, talking about what we finished recently and what remains to finish.
          We will also brainstorming what we want to do for the coming up group project.</p>
-         <ul>
+         <ol>
           <li>Introduction</li>
           <li>Status Updates</li>
             <ul>
-              <li><b>Finished:</b> software downloading, meeting time determination</li>
-              <li><b>Unfinished:</b> project topic decision</li>
+              <li><strong>Finished:</strong> software downloading, meeting time determination</li>
+              <li><strong>Unfinished:</strong> project topic decision</li>
             </ul>
           <li>Discuss and brainstorming</li>
           <li>Q&A</li>
-        </ul>
+        </ol>
 
     <h3>Brainstorming ideas</h3>
         <img 
           src="screenshots/idea.jpg"
         >
-    <h3>Matters Arising</h3>
+
+        <br>
+
+        <label for="project-idea">Choose your favorite idea:</label>
+        <select id="pet-select">
+            <option>--Please choose an option--</option>
+            <option>Slack bot</option>
+            <option>Discord bot</option>
+            <option>Easy notes chrome extension</option>
+            <option>Treasure hunt game</option>
+            <option>Social media</option>
+            <option>To-do list app</option>
+            <option>Snake game</option>
+        </select>
+
+    <h2>Matters Arising</h2>
     <p>1. More frontends than backends</p>
     <p>2. Unfamiliar with new programming language</p>
-        
+    
+    <label for="question">Tell us your question:</label>
+    <br>
+    <textarea id="question" name="question" rows="6" cols="33">
+    I have question about ...
+    </textarea>
+
+    </main>
+
     <br>
 
     <details>
@@ -66,13 +108,18 @@
 
     <br>
 
+    <details>
+        <summary>Details</summary>
+        Next meeting time would be in a week.
+    </details>
+
+    <br>
+
     <video controls width="250">
 
         <source src="screenshots/video.mp4">
     
-        Download the
-        
-        video.
+        Download the video.
     </video>
 
     <audio
@@ -85,24 +132,44 @@
     
     <br>
 
-    <details>
-        <summary>Details</summary>
-        Next meeting time would be in a week.
-    </details>
+    <fieldset>
+        <legend>Choose your favorite language</legend>
+    
+        <input type="radio" id="H" name="HTML" value="K">
+        <label for="HTML">HTML</label><br>
+    
+        <input type="radio" id="C" name="CSS" value="S">
+        <label for="CSS">CSS</label><br>
+    
+      </fieldset>
 
     <br>
 
     <form acition="" method="get" class="form">
-      <div class="form">
-        <label for = "name">Enter your name:</label>
+      <div>
+        <label for = "name"><em>Enter your name:</em></label>
         <input type =  "text" name = "name" id = "name" required>
       </div>
 
-      <div class="form">
+      <div>
         <input type="submit" value="submit">
       </div>
 
     </form>
+
+    <br>
+
+    <label for="feeling">How do you think about this meeting:</label>
+    <input list="feeling" id="choice" name="choice">
+    <datalist id="feeling">
+        <option value="Good">
+        <option value="Just-so-so">
+        <option value="Bad">
+    </datalist>
+
+    <br>
+
+    <footer><p>© 2022 YGnina</p></footer>
 
   </body>
 </html>
