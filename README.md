@@ -2,4 +2,4 @@
 
 Published site: https://ygnina.github.io/CSE110_Lab2_Starter/
 
-![Image](result.png)
+![Image](screenshots/result.png)
