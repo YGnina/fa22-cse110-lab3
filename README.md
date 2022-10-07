@@ -26,6 +26,6 @@ Traditionally, a meeting note includes:
 
 For the following two, you can simply take a 30 second pretend audio recording & video recording to use, we are just trying to get you familiar with the <audio> and <video> elements. Yes, you must have both audio and video elements, and yes, you can use the audio from the video you took for the audio element, it just has to be in a separate audio file.
 
-  - [ ] audio recording the meeting
+- [x] audio recording the meeting
 
-  - [ ] video recording of the meeting
+- [x] video recording of the meeting
