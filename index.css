@@ -1,1 +1,107 @@
+/* write body style */
+body {
+    background-color:lightgrey;
+    font-size: 20px;
+    text-align: start;
+    
+}
 
+/* box model */
+div {
+    margin-top: 0.5em;
+    margin: auto,auto,auto,1px;
+    padding-bottom: 1em;
+    padding: 2px,auto,auto,auto;
+    border-style:ridge;
+    border-color: rgb(r, g, b);
+    border-width: 0.5em;
+    border-radius: 0.5em; 
+}
+  
+/* add color and margin */
+h1 {
+    color: #ffc;
+    margin-left: 5px;
+    text-decoration:underline;
+}
+
+h3 {
+    color: hsl(h, s, l);
+    margin: 10px;
+    /*display: block;*/
+}
+
+button{
+    display:inline-block;
+    display: flex;
+    min-width: 10cm;
+    height: 0.5cm;
+    position: sticky;
+}
+
+button:hover {
+    color:coral;
+}
+
+form:active {
+    box-shadow: 2px 2px 5px blueviolet;
+}
+
+datalist{
+    display: grid;
+}
+
+section {
+    display: block;
+    max-width: 10cm;
+    display: flex;
+}
+
+label {
+    width: 90%;
+    position: relative;
+    display: grid;
+}
+
+.flex-container{
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.flex-item1{
+    flex-grow: 1;
+    flex-shrink: 4;
+    flex-basis: auto;
+    align-items: flex-end;
+    background-color: azure;
+    border: 2mm solid khaki;
+}
+
+.flex-item2{
+    flex-grow: 1;
+    flex-shrink: 4;
+    flex-basis: auto;
+    align-items: flex-end;
+    background-color: azure;
+    border: 2mm solid lemonchiffon;
+}
+
+.grid-container{
+    display: grid;
+    column-gap: 50px;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    grid-area:unset;
+    grid-template-rows: [row1-start] 25% [row1-end] auto [last-line];
+}
+
+.grid-item1{
+    background-color: darkorange;
+    border: 2mm solid wheat;
+}
+
+.grid-item2{
+    background-color: wheat;
+    border: 2mm solid darkorange;
+}
