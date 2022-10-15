@@ -1,6 +1,5 @@
 /* write body style */
-/*body { */
-    *{
+* {
     background-color:lightgrey;
     font-size: 20px;
     text-align: start;
@@ -70,7 +69,6 @@ label {
     
 }
 
-/*.flex-item1{*/
 div.flex-item1{
     flex-grow: 1;
     flex-shrink: 4;
@@ -104,12 +102,7 @@ div.flex-item1{
     border: 2mm solid wheat;
 }
 
-/*
-.grid-item2{
-    background-color: wheat;
-    border: 2mm solid darkorange;
-}
-*/
+
 
 @media (min-width: 35rem) {
     video {
@@ -144,4 +137,5 @@ ol ~ ul , ul ~ ol{
 h3 + p {
     background-color: greenyellow;
 }
+
 
