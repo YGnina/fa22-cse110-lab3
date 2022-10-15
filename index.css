@@ -1,5 +1,6 @@
 /* write body style */
-body {
+/*body { */
+    *{
     background-color:lightgrey;
     font-size: 20px;
     text-align: start;
@@ -35,7 +36,7 @@ button{
     display:inline-block;
     display: flex;
     min-width: 10cm;
-    height: 0.5cm;
+    height: 1cm;
     position: sticky;
 }
 
@@ -69,7 +70,8 @@ label {
     
 }
 
-.flex-item1{
+/*.flex-item1{*/
+div.flex-item1{
     flex-grow: 1;
     flex-shrink: 4;
     flex-basis: auto;
@@ -96,15 +98,18 @@ label {
     grid-template-rows: [row1-start] 25% [row1-end] auto [last-line];
 }
 
-.grid-item1{
+.grid-item1,
+.grid-item2{
     background-color: darkorange;
     border: 2mm solid wheat;
 }
 
+/*
 .grid-item2{
     background-color: wheat;
     border: 2mm solid darkorange;
 }
+*/
 
 @media (min-width: 35rem) {
     video {
@@ -115,3 +120,28 @@ label {
 html {
     font-family: 'Poppins', sans-serif;
 }
+
+#question{
+    background-color: white;
+}
+
+a[href="#"]{
+    background-color: wheat;
+}
+
+section b{
+    background-color: yellow;
+}
+
+ol > li{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+ol ~ ul , ul ~ ol{
+    border-style:dashed
+}
+
+h3 + p {
+    background-color: greenyellow;
+}
+
