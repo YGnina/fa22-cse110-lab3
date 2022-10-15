@@ -105,3 +105,14 @@ label {
     background-color: wheat;
     border: 2mm solid darkorange;
 }
+
+@media (min-width: 35rem) {
+    video {
+        display: flex;
+    }
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+  
